@@ -4,14 +4,19 @@ Practicas JavaScript
     *comentarios --//
         usar doble linea inclinada derecha hace un comentario en la linea, no actua en la linea siguiente.
         --//--
+
+    *comentario --/* */
+        usar /* */ genera un comentario multilinea. 
+        --/* */--
+
     *modo estricto --strict
         el modo estricto garantiza que se esta escribiendo código de js con buenas practicas y qeu no se usan palabras reservadas. Solo se coloca al principio de un archivo js. 
         --"use strict"--
 
     *alcance --scope
-        el espacio que va a abarcar una variable en uso con posibilidad de delimitarlo.
+        se llama --scope-- el espacio que va a abarcar una variable en uso con posibilidad de delimitarlo.
 
-    *variable --var
+    *variable globl --var
         palabra reservada para una variable global. 
         una manera de almacenar datos dentro de una aplicacion. 
         existen variables globales y locales.
@@ -19,7 +24,7 @@ Practicas JavaScript
         la variable retiene el dato hasta que llegue un nuevo dato (valor para almacenar en la variable).
         --var--
 
-    *variable --let
+    *variable  local --let
         palabra reservada para definir una variable local.
         es un contenedor de bloque.
         --let--
